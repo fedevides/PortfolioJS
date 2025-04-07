@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio Felipe</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  
+  <header>
+    <h1>Felipe Devides</h1>
+    <img src="images/minha-foto.jpg" alt="Minha foto" class="foto-perfil" />
+    <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
+  </header>
+ 
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Olá! Sou um estudante apaixonado por tecnologia. Gosto de programar, criar sites e aprender coisas novas. No tempo livre, adoro estudar, jogar videogame, praticar esportes e ouvir música.</p>
+  </section>
+  
+  <section id="projetos">
+    <h2>Meus Projetos</h2>
+    <article class="projeto">
+      <h3>Jogo da Memória</h3>
+      <p>Projeto prático do curso "Desenvolvimento Web - Do zero ao primeiro projeto"</p>
+      <a href="https://github.com/fedevides/JogoDaMemoria-React" target="_blank">Ver Projeto</a>
+    </article>
+
+    <article class="projeto">
+      <h3>App de Tasks</h3>
+      <p>Projeto prático da plataforma Rocketseat</p>
+      <a href="https://github.com/fedevides/App-Setup" target="_blank">Ver Projeto</a>
+    </article>
+  </section>
+  
+  <section id="contato">
+    <h2>Contato</h2>
+    <form id="form-contato">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+
+      <button type="submit" id="enviar-btn">Enviar</button>
+    </form>
+  </section>
+ 
+  <footer>
+    <p>&copy; Felipe Devides. Todos os direitos reservados - 2025</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
